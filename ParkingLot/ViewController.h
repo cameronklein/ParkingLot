@@ -7,6 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParkingLot.h"
+#import "FullCar.h"
+#import "CompactCar.h"
+#import "Truck.h"
+#import "Motorcycle.h"
+#import "ElectricCar.h"
 
 @interface ViewController : UIViewController
 

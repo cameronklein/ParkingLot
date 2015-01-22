@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ParkingLot.h"
+#import "CompactCar.h"
+#import "Truck.h"
 
 @interface ParkingLotTests : XCTestCase
+
+@property (nonatomic, strong) ParkingLot *parkingLot;
 
 @end
 
@@ -17,7 +22,7 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+  
 }
 
 - (void)tearDown {
@@ -25,16 +30,27 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testInsert {
+    ParkingLot *parkingLot = [[ParkingLot alloc] initWithCapacity:1];
+    XCTAssert([parkingLot parkVehicle:[CompactCar new]], @"Inserted First Car");
+    XCTAssert(![parkingLot parkVehicle:[CompactCar new]], @"Second Car Exceeds Capacity");
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testRemove {
+  ParkingLot *parkingLot = [[ParkingLot alloc] initWithCapacity:1];
+  CompactCar *car = [CompactCar new];
+  XCTAssert([parkingLot parkVehicle:car], @"Inserted First Car");
+  XCTAssert([parkingLot unparkVehicle:car], @"Removed First Car");
+  XCTAssert([parkingLot parkVehicle:car], @"Inserted Second Car");
 }
+
+- (void)testMoneyCollection {
+  ParkingLot *parkingLot = [[ParkingLot alloc] initWithCapacity:2];
+  [parkingLot parkVehicle:[CompactCar new]];
+  XCTAssert([parkingLot moneyEarned] == 20, @"Correctly collected money from compact car");
+  [parkingLot parkVehicle:[[Truck alloc] initWithNumberOfWheels:8]];
+  XCTAssert([parkingLot moneyEarned] == 63, @"Correctly collected money from truck");
+}
+
 
 @end

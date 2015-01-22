@@ -14,6 +14,13 @@
 		7EABC4001A70B55100CE9F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EABC3FF1A70B55100CE9F1A /* Images.xcassets */; };
 		7EABC4031A70B55100CE9F1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EABC4011A70B55100CE9F1A /* LaunchScreen.xib */; };
 		7EABC40F1A70B55100CE9F1A /* ParkingLotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC40E1A70B55100CE9F1A /* ParkingLotTests.m */; };
+		7EABC41A1A70B59D00CE9F1A /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC4191A70B59D00CE9F1A /* Vehicle.m */; };
+		7EABC41D1A70B66000CE9F1A /* FullCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC41C1A70B66000CE9F1A /* FullCar.m */; };
+		7EABC4201A70B69100CE9F1A /* CompactCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC41F1A70B69100CE9F1A /* CompactCar.m */; };
+		7EABC4231A70B6B800CE9F1A /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC4221A70B6B800CE9F1A /* Truck.m */; };
+		7EABC4261A70B75A00CE9F1A /* Motorcycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC4251A70B75A00CE9F1A /* Motorcycle.m */; };
+		7EABC4291A70B77D00CE9F1A /* ElectricCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC4281A70B77D00CE9F1A /* ElectricCar.m */; };
+		7EABC42D1A70B7C600CE9F1A /* ParkingLot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EABC42C1A70B7C600CE9F1A /* ParkingLot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,20 @@
 		7EABC4081A70B55100CE9F1A /* ParkingLotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingLotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EABC40D1A70B55100CE9F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EABC40E1A70B55100CE9F1A /* ParkingLotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingLotTests.m; sourceTree = "<group>"; };
+		7EABC4181A70B59D00CE9F1A /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		7EABC4191A70B59D00CE9F1A /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		7EABC41B1A70B66000CE9F1A /* FullCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullCar.h; sourceTree = "<group>"; };
+		7EABC41C1A70B66000CE9F1A /* FullCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullCar.m; sourceTree = "<group>"; };
+		7EABC41E1A70B69100CE9F1A /* CompactCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompactCar.h; sourceTree = "<group>"; };
+		7EABC41F1A70B69100CE9F1A /* CompactCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompactCar.m; sourceTree = "<group>"; };
+		7EABC4211A70B6B800CE9F1A /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		7EABC4221A70B6B800CE9F1A /* Truck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Truck.m; sourceTree = "<group>"; };
+		7EABC4241A70B75A00CE9F1A /* Motorcycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motorcycle.h; sourceTree = "<group>"; };
+		7EABC4251A70B75A00CE9F1A /* Motorcycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motorcycle.m; sourceTree = "<group>"; };
+		7EABC4271A70B77D00CE9F1A /* ElectricCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectricCar.h; sourceTree = "<group>"; };
+		7EABC4281A70B77D00CE9F1A /* ElectricCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectricCar.m; sourceTree = "<group>"; };
+		7EABC42B1A70B7C600CE9F1A /* ParkingLot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingLot.h; sourceTree = "<group>"; };
+		7EABC42C1A70B7C600CE9F1A /* ParkingLot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingLot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,7 @@
 		7EABC3F11A70B55100CE9F1A /* ParkingLot */ = {
 			isa = PBXGroup;
 			children = (
+				7EABC42A1A70B7A500CE9F1A /* Model Layer */,
 				7EABC3F61A70B55100CE9F1A /* AppDelegate.h */,
 				7EABC3F71A70B55100CE9F1A /* AppDelegate.m */,
 				7EABC3F91A70B55100CE9F1A /* ViewController.h */,
@@ -117,6 +139,28 @@
 				7EABC40D1A70B55100CE9F1A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EABC42A1A70B7A500CE9F1A /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				7EABC4181A70B59D00CE9F1A /* Vehicle.h */,
+				7EABC4191A70B59D00CE9F1A /* Vehicle.m */,
+				7EABC41B1A70B66000CE9F1A /* FullCar.h */,
+				7EABC41C1A70B66000CE9F1A /* FullCar.m */,
+				7EABC41E1A70B69100CE9F1A /* CompactCar.h */,
+				7EABC41F1A70B69100CE9F1A /* CompactCar.m */,
+				7EABC4211A70B6B800CE9F1A /* Truck.h */,
+				7EABC4221A70B6B800CE9F1A /* Truck.m */,
+				7EABC4241A70B75A00CE9F1A /* Motorcycle.h */,
+				7EABC4251A70B75A00CE9F1A /* Motorcycle.m */,
+				7EABC4271A70B77D00CE9F1A /* ElectricCar.h */,
+				7EABC4281A70B77D00CE9F1A /* ElectricCar.m */,
+				7EABC42B1A70B7C600CE9F1A /* ParkingLot.h */,
+				7EABC42C1A70B7C600CE9F1A /* ParkingLot.m */,
+			);
+			name = "Model Layer";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EABC4261A70B75A00CE9F1A /* Motorcycle.m in Sources */,
+				7EABC4201A70B69100CE9F1A /* CompactCar.m in Sources */,
+				7EABC4231A70B6B800CE9F1A /* Truck.m in Sources */,
+				7EABC4291A70B77D00CE9F1A /* ElectricCar.m in Sources */,
+				7EABC41D1A70B66000CE9F1A /* FullCar.m in Sources */,
+				7EABC41A1A70B59D00CE9F1A /* Vehicle.m in Sources */,
+				7EABC42D1A70B7C600CE9F1A /* ParkingLot.m in Sources */,
 				7EABC3FB1A70B55100CE9F1A /* ViewController.m in Sources */,
 				7EABC3F81A70B55100CE9F1A /* AppDelegate.m in Sources */,
 				7EABC3F51A70B55100CE9F1A /* main.m in Sources */,
